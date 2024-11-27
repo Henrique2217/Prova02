@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Banco">
+  <grid id="27dc6" binding="Home" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="571" height="588"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="b5b9" class="javax.swing.JTextField" binding="Saldo">
+        <constraints>
+          <grid row="0" column="0" row-span="2" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="                      Saldo"/>
+        </properties>
+      </component>
+      <component id="ab4a4" class="javax.swing.JTextField" binding="Valor">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="                                                   R$ 500,00"/>
+        </properties>
+      </component>
+      <component id="2971d" class="javax.swing.JTextField" binding="Sacarvalor">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Informe o valor do saque"/>
+        </properties>
+      </component>
+      <component id="32cb6" class="javax.swing.JTextField" binding="Valordeposito">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Informe o valor de deposito"/>
+        </properties>
+      </component>
+      <component id="4d3f3" class="javax.swing.JButton" binding="RealizarDeposito">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Realizar Deposito"/>
+        </properties>
+      </component>
+      <component id="c1585" class="javax.swing.JButton" binding="Realizarsaque">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Realizar Saque"/>
+        </properties>
+      </component>
+      <component id="d2a59" class="javax.swing.JTextField" binding="InserirValor">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="R$"/>
+        </properties>
+      </component>
+      <component id="7e17e" class="javax.swing.JTextField" binding="InserirDeposito">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="R$"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
